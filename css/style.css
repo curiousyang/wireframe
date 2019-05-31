@@ -1,0 +1,67 @@
+body{
+    margin: auto;
+    background-color:white;
+    width:100%;
+  }
+
+main{
+    width: 960px;
+    margin:auto;
+
+}
+header section{
+      background-color: dimgrey;
+      width: 100%;
+      height:100px;
+}
+header img{
+      float: left;
+      margin-left:235px;
+      margin-top:15px;
+}
+section{
+      margin-bottom: 30px;
+}
+nav ul li{
+      display: inline-block;
+      margin-left: 80px;
+      line-height: 100px;
+    
+      
+      color:lightgray;
+      font-family: sans-serif;
+      
+}
+
+/*set parent section font-size to zero to clear some unusual space between sections*/  
+main section:nth-child(2){
+    font-size: 0;
+
+}
+main section:nth-child(2) img:nth-child(-n+2){
+    margin-right:30px;
+
+}
+
+main section:nth-child(3) img{
+    float: left;
+    margin-right:30px;
+
+}
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section div:nth-child(2){
+    overflow: auto;
+    height:400px;
+}
+p{
+    margin-top:20px;
+    line-height: 25px;
+}
+botton{
+    pointer-events: none !important;
+}
